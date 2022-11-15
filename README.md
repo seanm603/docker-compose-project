@@ -3,6 +3,11 @@ This document is a step by step guide to installing Docker and configuring an op
 
 To complete this project, I installed a new Ubuntu virtual machine on my laptop and chose to install greenbone on that.
 
+A lot of credit belongs to Greenbone themselves because they have documentation online that makes the installation a bit smoother. For reference, this is one page I used heavily when I ran into issues:
+
+https://greenbone.github.io/docs/latest/22.4/container/index.html
+
+
 # (1) Install packages
 For this project, you need to install `docker.io`, `docker-compose`, and `curl`. Since I am using a fresh Ubuntu install, I needed to specify that docker was a program that I was allowed to run. 
 ```zsh
